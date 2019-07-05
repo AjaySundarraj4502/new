@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-05T09:05:55.375Z",
+        "line": 14,
+        "name": "Login using username and password",
+        "description": "",
+        "id": "login-to-testme-app-with-the-registered-username-and-password;login-using-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22078063000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the Web application",
+            "match": {
+              "location": "cs2.enterweb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8368250500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press signin option",
+            "match": {
+              "location": "cs2.signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147956100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter lalitha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lalitha",
+                  "offset": 8
+                }
+              ],
+              "location": "cs2.username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174697700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter pass password123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password123",
+                  "offset": 13
+                }
+              ],
+              "location": "cs2.password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 806662400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press Login",
+            "match": {
+              "location": "cs2.reg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1719401700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press signout option",
+            "match": {
+              "location": "cs2.signout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-05T09:06:28.691Z",
+        "line": 15,
+        "name": "Login using username and password",
+        "description": "",
+        "id": "login-to-testme-app-with-the-registered-username-and-password;login-using-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36087832000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the Web application",
+            "match": {
+              "location": "cs2.enterweb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10663036100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press signin option",
+            "match": {
+              "location": "cs2.signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109096600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter entertain",
+            "match": {
+              "arguments": [
+                {
+                  "val": "entertain",
+                  "offset": 8
+                }
+              ],
+              "location": "cs2.username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90011100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter pass pass456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass456",
+                  "offset": 13
+                }
+              ],
+              "location": "cs2.password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2003039000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press Login",
+            "match": {
+              "location": "cs2.reg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3401494900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press signout option",
+            "match": {
+              "location": "cs2.signout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-05T09:07:21.042Z",
+        "line": 16,
+        "name": "Login using username and password",
+        "description": "",
+        "id": "login-to-testme-app-with-the-registered-username-and-password;login-using-username-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28772623000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the Web application",
+            "match": {
+              "location": "cs2.enterweb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8252123700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press signin option",
+            "match": {
+              "location": "cs2.signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105348900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter comment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comment",
+                  "offset": 8
+                }
+              ],
+              "location": "cs2.username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131896200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter pass pass456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass456",
+                  "offset": 13
+                }
+              ],
+              "location": "cs2.password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 610825400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press Login",
+            "match": {
+              "location": "cs2.reg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1544021100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press signout option",
+            "match": {
+              "location": "cs2.signout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to TestMe App with the registered username and password",
+    "description": "fghfdk",
+    "id": "login-to-testme-app-with-the-registered-username-and-password",
+    "keyword": "Feature",
+    "uri": "classpath:casestudy2/cs2.feature",
+    "tags": []
+  }
+]
